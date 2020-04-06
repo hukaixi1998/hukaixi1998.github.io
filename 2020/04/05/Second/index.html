@@ -275,6 +275,11 @@
       <footer class="post-footer">
 
         
+  <div class="post-widgets">
+    <div class="wp_rating">
+      <div id="wpac-rating"></div>
+    </div>
+  </div>
 
 
         
@@ -284,8 +289,8 @@
       <i class="fa fa-chevron-left"></i> Second
     </a></div>
       <div class="post-nav-item">
-    <a href="/2020/04/06/Untitled/" rel="next" title="关于jdk11.0.5和数据库Mysql8.0的连接出现的问题和连接方法，我做了一下整理（项目是Javaweb项目用的是maven配置外包）">
-      关于jdk11.0.5和数据库Mysql8.0的连接出现的问题和连接方法，我做了一下整理（项目是Javaweb项目用的是maven配置外包） <i class="fa fa-chevron-right"></i>
+    <a href="/2020/04/06/Untitled/" rel="next" title="3-33在图 3-31中，以太网交换机有6个接口，分别接到5台主机和一个路由器。在下面表中的“动作”一栏中，表示先后发送了4个帧。假定在开始时，以太网交换 机的交换表是空的。试把该表中其他的栏目都填写">
+      3-33在图 3-31中，以太网交换机有6个接口，分别接到5台主机和一个路由器。在下面表中的“动作”一栏中，表示先后发送了4个帧。假定在开始时，以太网交换 机的交换表是空的。试把该表中其他的栏目都填写 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -362,7 +367,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -538,6 +543,26 @@
 
 
 
+  <script>
+  if (CONFIG.page.isPost) {
+    wpac_init = window.wpac_init || [];
+    wpac_init.push({
+      widget: 'Rating',
+      id    : 24396,
+      el    : 'wpac-rating',
+      color : 'fc6423'
+    });
+    (function() {
+      if ('WIDGETPACK_LOADED' in window) return;
+      WIDGETPACK_LOADED = true;
+      var mc = document.createElement('script');
+      mc.type = 'text/javascript';
+      mc.async = true;
+      mc.src = '//embed.widgetpack.com/widget.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+    })();
+  }
+  </script>
 
   
 <script src="/js/local-search.js"></script>
