@@ -7,16 +7,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>我的第一篇文章</title>
-    <url>/2020/04/05/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<h2 id="先说错误和出现的问题再说连接的方法"><a href="#先说错误和出现的问题再说连接的方法" class="headerlink" title="先说错误和出现的问题再说连接的方法"></a>先说错误和出现的问题再说连接的方法</h2>]]></content>
-  </entry>
-  <entry>
-    <title>Untitled11111111111111111</title>
-    <url>/2020/04/05/Untitled/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>#案例 #0.通过pyquery定位如下html源码中的第二对儿ul中的li文本(使用CSS选择器实现，不要用下标索引)。</title>
     <url>/2020/04/05/Second/</url>
     <content><![CDATA[<h2 id="案例-0-通过pyquery定位如下html源码中的第二对儿ul中的li文本-使用CSS选择器实现，不要用下标索引"><a href="#案例-0-通过pyquery定位如下html源码中的第二对儿ul中的li文本-使用CSS选择器实现，不要用下标索引" class="headerlink" title="案例 #0.通过pyquery定位如下html源码中的第二对儿ul中的li文本(使用CSS选择器实现，不要用下标索引)"></a>案例 #0.通过pyquery定位如下html源码中的第二对儿ul中的li文本(使用CSS选择器实现，不要用下标索引)</h2><p>这里先上代码：</p>
@@ -27,6 +17,17 @@
 <h2 id="1-对上例中所有的li节点，奇数节点添加class值-active-0，偶数节点添加class值-active-1。"><a href="#1-对上例中所有的li节点，奇数节点添加class值-active-0，偶数节点添加class值-active-1。" class="headerlink" title="1.对上例中所有的li节点，奇数节点添加class值:active-0，偶数节点添加class值:active-1。"></a>1.对上例中所有的li节点，奇数节点添加class值:active-0，偶数节点添加class值:active-1。</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pyquery <span class="keyword">import</span> PyQuery <span class="keyword">as</span> pq</span><br><span class="line">doc=pq(html)</span><br><span class="line">li=doc(<span class="string">'li:nth-child(2n+1)'</span>)</span><br><span class="line">print(li)</span><br><span class="line">li.addClass(<span class="string">'active-0'</span>)</span><br><span class="line">print(li)</span><br></pre></td></tr></table></figure>
 <p>同样这里也是用了同一个选择器，当然这里的2n+1就是表达式，代表奇数位置</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>计算机网络第7版，第三章课后习题，3-33在图 3-31中，以太网交换机有6个接口</title>
+    <url>/2020/04/06/Untitled/</url>
+    <content><![CDATA[<h2 id="3-33在图-3-31中，以太网交换机有6个接口，分别接到5台主机和一个路由器。在下面表中的“动作”一栏中，表示先后发送了4个帧。假定在开始时，以太网交换-机的交换表是空的。试把该表中其他的栏目都填写完。"><a href="#3-33在图-3-31中，以太网交换机有6个接口，分别接到5台主机和一个路由器。在下面表中的“动作”一栏中，表示先后发送了4个帧。假定在开始时，以太网交换-机的交换表是空的。试把该表中其他的栏目都填写完。" class="headerlink" title="3-33在图 3-31中，以太网交换机有6个接口，分别接到5台主机和一个路由器。在下面表中的“动作”一栏中，表示先后发送了4个帧。假定在开始时，以太网交换 机的交换表是空的。试把该表中其他的栏目都填写完。"></a>3-33在图 3-31中，以太网交换机有6个接口，分别接到5台主机和一个路由器。在下面表中的“动作”一栏中，表示先后发送了4个帧。假定在开始时，以太网交换 机的交换表是空的。试把该表中其他的栏目都填写完。</h2><p><img src="https://img-blog.csdnimg.cn/20200326172553822.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjU4MjE4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>我的第一篇文章</title>
+    <url>/2020/04/05/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<h2 id="先说错误和出现的问题再说连接的方法"><a href="#先说错误和出现的问题再说连接的方法" class="headerlink" title="先说错误和出现的问题再说连接的方法"></a>先说错误和出现的问题再说连接的方法</h2>]]></content>
   </entry>
   <entry>
     <title>Hello World</title>
