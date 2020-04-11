@@ -30,6 +30,9 @@
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"> <span class="comment">//连接MySql数据库，用户名和密码都是root</span></span><br><span class="line">String url = <span class="string">"jdbc:mysql://localhost:3306/db_pm?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone = GMT"</span> ;</span><br><span class="line"> String username = <span class="string">"root"</span> ;</span><br><span class="line"> String password = <span class="string">"1215"</span> ;</span><br><span class="line"> <span class="keyword">try</span>&#123;</span><br><span class="line">     Connection con =</span><br><span class="line">            DriverManager.getConnection(url , username , password ) ;</span><br><span class="line">&#125;<span class="keyword">catch</span>(SQLException se)&#123;</span><br><span class="line">   System.out.println(<span class="string">"数据库连接失败！"</span>);</span><br><span class="line">    se.printStackTrace() ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p><em>如果对你有帮助，点赞一下呗，挺不容易的哈哈哈</em></p>
 <a id="more"></a>]]></content>
+      <categories>
+        <category>分类名</category>
+      </categories>
   </entry>
   <entry>
     <title>#案例 #0.通过pyquery定位如下html源码中的第二对儿ul中的li文本(使用CSS选择器实现，不要用下标索引)。</title>
@@ -59,6 +62,9 @@
     <title>我的第一篇文章</title>
     <url>/2020/04/05/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<h2 id="先说错误和出现的问题再说连接的方法"><a href="#先说错误和出现的问题再说连接的方法" class="headerlink" title="先说错误和出现的问题再说连接的方法"></a>先说错误和出现的问题再说连接的方法</h2>]]></content>
+      <categories>
+        <category>分类名</category>
+      </categories>
   </entry>
   <entry>
     <title>Hello World</title>
