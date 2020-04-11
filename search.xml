@@ -38,6 +38,12 @@
 ]]></content>
   </entry>
   <entry>
+    <title>3-33在图 3-31中，以太网交换机有6个接口，分别接到5台主机和一个路由器。在下面表中的“动作”一栏中，表示先后发送了4个帧。假定在开始时，以太网交换 机的交换表是空的。试把该表中其他的栏目都填写</title>
+    <url>/2020/04/06/Untitled/</url>
+    <content><![CDATA[<h2 id="3-33在图-3-31中，以太网交换机有6个接口，分别接到5台主机和一个路由器。在下面表中的“动作”一栏中，表示先后发送了4个帧。假定在开始时，以太网交换-机的交换表是空的。试把该表中其他的栏目都填写完。"><a href="#3-33在图-3-31中，以太网交换机有6个接口，分别接到5台主机和一个路由器。在下面表中的“动作”一栏中，表示先后发送了4个帧。假定在开始时，以太网交换-机的交换表是空的。试把该表中其他的栏目都填写完。" class="headerlink" title="3-33在图 3-31中，以太网交换机有6个接口，分别接到5台主机和一个路由器。在下面表中的“动作”一栏中，表示先后发送了4个帧。假定在开始时，以太网交换 机的交换表是空的。试把该表中其他的栏目都填写完。"></a>3-33在图 3-31中，以太网交换机有6个接口，分别接到5台主机和一个路由器。在下面表中的“动作”一栏中，表示先后发送了4个帧。假定在开始时，以太网交换 机的交换表是空的。试把该表中其他的栏目都填写完。</h2><p><img src="https://img-blog.csdnimg.cn/20200326172553822.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjU4MjE4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<a id="more"></a>]]></content>
+  </entry>
+  <entry>
     <title>#案例 #0.通过pyquery定位如下html源码中的第二对儿ul中的li文本(使用CSS选择器实现，不要用下标索引)。</title>
     <url>/2020/04/05/Second/</url>
     <content><![CDATA[<h2 id="案例-0-通过pyquery定位如下html源码中的第二对儿ul中的li文本-使用CSS选择器实现，不要用下标索引"><a href="#案例-0-通过pyquery定位如下html源码中的第二对儿ul中的li文本-使用CSS选择器实现，不要用下标索引" class="headerlink" title="案例 #0.通过pyquery定位如下html源码中的第二对儿ul中的li文本(使用CSS选择器实现，不要用下标索引)"></a>案例 #0.通过pyquery定位如下html源码中的第二对儿ul中的li文本(使用CSS选择器实现，不要用下标索引)</h2><p>这里先上代码：</p>
@@ -47,12 +53,6 @@
 <p>要求说第二对ul的li标签对吧，我们就可以用下面的选择器：<br><strong>CSS3 结构性伪类选择器—nth-child(n)</strong><br><code>:nth-child(n)</code><em>选择器用来定位某个父元素的一个或多个特定的子元素。其中“n”是其参数，而且可以是整数值(1,2,3,4)，也可以是表达式(2n+1、-n+5)和关键词(odd、even)，但参数n的起始值始终是1，而不是0。也就是说，参数n的值为0时，选择器将选择不到任何匹配的元素。</em><br>简单说这案例就写nth-child(2)就可以，但是子元素就是ul，父元素就是div。</p>
 <h2 id="1-对上例中所有的li节点，奇数节点添加class值-active-0，偶数节点添加class值-active-1。"><a href="#1-对上例中所有的li节点，奇数节点添加class值-active-0，偶数节点添加class值-active-1。" class="headerlink" title="1.对上例中所有的li节点，奇数节点添加class值:active-0，偶数节点添加class值:active-1。"></a>1.对上例中所有的li节点，奇数节点添加class值:active-0，偶数节点添加class值:active-1。</h2><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pyquery <span class="keyword">import</span> PyQuery <span class="keyword">as</span> pq</span><br><span class="line">doc=pq(html)</span><br><span class="line">li=doc(<span class="string">'li:nth-child(2n+1)'</span>)</span><br><span class="line">print(li)</span><br><span class="line">li.addClass(<span class="string">'active-0'</span>)</span><br><span class="line">print(li)</span><br></pre></td></tr></table></figure>
 <p>同样这里也是用了同一个选择器，当然这里的2n+1就是表达式，代表奇数位置</p>
-<a id="more"></a>]]></content>
-  </entry>
-  <entry>
-    <title>3-33在图 3-31中，以太网交换机有6个接口，分别接到5台主机和一个路由器。在下面表中的“动作”一栏中，表示先后发送了4个帧。假定在开始时，以太网交换 机的交换表是空的。试把该表中其他的栏目都填写</title>
-    <url>/2020/04/06/Untitled/</url>
-    <content><![CDATA[<h2 id="3-33在图-3-31中，以太网交换机有6个接口，分别接到5台主机和一个路由器。在下面表中的“动作”一栏中，表示先后发送了4个帧。假定在开始时，以太网交换-机的交换表是空的。试把该表中其他的栏目都填写完。"><a href="#3-33在图-3-31中，以太网交换机有6个接口，分别接到5台主机和一个路由器。在下面表中的“动作”一栏中，表示先后发送了4个帧。假定在开始时，以太网交换-机的交换表是空的。试把该表中其他的栏目都填写完。" class="headerlink" title="3-33在图 3-31中，以太网交换机有6个接口，分别接到5台主机和一个路由器。在下面表中的“动作”一栏中，表示先后发送了4个帧。假定在开始时，以太网交换 机的交换表是空的。试把该表中其他的栏目都填写完。"></a>3-33在图 3-31中，以太网交换机有6个接口，分别接到5台主机和一个路由器。在下面表中的“动作”一栏中，表示先后发送了4个帧。假定在开始时，以太网交换 机的交换表是空的。试把该表中其他的栏目都填写完。</h2><p><img src="https://img-blog.csdnimg.cn/20200326172553822.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQzNjU4MjE4,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 <a id="more"></a>]]></content>
   </entry>
   <entry>
